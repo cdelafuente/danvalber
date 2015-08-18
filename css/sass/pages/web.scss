@@ -1,0 +1,23 @@
+@import "../partials/_global.scss";
+@import "../partials/_colors.scss";
+@import "../partials/_section.scss";
+
+#content {
+  /* Image container color */
+  li {
+    background-color: $green;
+  }
+
+  .item-1,
+  .item-2,
+  .item-3,
+  .item-4,
+  .item-5,
+  .item-6 {
+    width: 450px;
+    padding: 20px;
+  }
+
+  .item-7 img { margin-top: 38px; }
+  .item-8 img { margin-top: 49px; }
+}

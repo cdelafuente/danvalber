@@ -1,3 +1,13 @@
+body {
+  background: url("../img/background.png");
+  background-size: 17.5px;
+  width: 1000px;
+  margin: 0 auto; }
+
+/*
+ * Colors
+ */
+/* Header */
 h1 {
   background-color: #e3cfe2;
   width: 100%;
@@ -5,89 +15,77 @@ h1 {
   display: inline-block;
   position: relative;
   box-shadow: 1px 1px 4px #bbb;
-}
+  /* Center logo */ }
+  h1 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -23px;
+    margin-left: -250px; }
 
-h1 img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -23px;
-  margin-left: -250px;
-}
-
+/* Portfolio items */
 #content ul {
   margin: 0;
   padding: 0;
-}
+  /* Images container */
+  /* Add some space between items */ }
+  #content ul li {
+    list-style-type: none;
+    box-shadow: 1px 1px 4px #bbb;
+    float: left;
+    width: 470px;
+    height: 400px;
+    padding: 10px;
+    /* Make images fluid */ }
+    #content ul li img {
+      display: inline-block;
+      width: 100%; }
+  #content ul li:nth-child(odd) {
+    margin-right: 20px;
+    margin-bottom: 20px; }
 
+/* Items container background */
 #content ul li {
-  list-style-type: none;
-  background-color: #dc6ca9;
-  box-shadow: 1px 1px 4px #bbb;
-  float: left;
-  width: 470px;
-  height: 400px;
-  padding: 10px;
-}
+  background-color: #dc6ca9; }
 
-#content ul li:nth-child(odd) {
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
+/* Vertically center images */
+.item-1 img {
+  margin-top: 26.5px; }
 
-#content ul li img {
-  display: inline-block;
-  width: 100%;
-}
+.item-2 img {
+  margin-top: 27.5px; }
 
-#editorial-item-1 img {
-  margin-top: 26.5px;
-}
+.item-3 img {
+  margin-top: 66px; }
 
-#editorial-item-2 img {
-  margin-top: 27.5px;
-}
+.item-4 img {
+  margin-top: 50px; }
 
-#editorial-item-3 img {
-  margin-top: 66px;
-}
+.item-5 img {
+  margin-top: 47px; }
 
-#editorial-item-4 img {
-  margin-top: 50px;
-}
+.item-6 img {
+  margin-top: 67.5px; }
 
-#editorial-item-5 img {
-  margin-top: 47px;
-}
+.item-7 img {
+  margin-top: 66px; }
 
-#editorial-item-6 img {
-  margin-top: 67.5px;
-}
+.item-8 img {
+  margin-top: 28.5px; }
 
-#editorial-item-7 img {
-  margin-top: 66px;
-}
+.item-9 img {
+  margin-top: 71.5px; }
 
-#editorial-item-8 img {
-  margin-top: 28.5px;
-}
+.item-10 img {
+  margin-top: 71px; }
 
-#editorial-item-9 img {
-  margin-top: 71.5px;
-}
+.item-12 img {
+  margin-top: 37.5px; }
 
-#editorial-item-10 img {
-  margin-top: 71px;
-}
+.item-13 img {
+  margin-top: 47px; }
 
-#editorial-item-12 img {
-  margin-top: 37.5px;
-}
+.item-14 img {
+  margin-top: 33px; }
 
-#editorial-item-13 img {
-  margin-top: 47px;
-}
-
-#editorial-item-14 img {
-  margin-top: 33px;
-}
+/*# sourceMappingURL=editorial.css.map */

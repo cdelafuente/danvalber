@@ -1,0 +1,48 @@
+/* Header */
+h1 {
+  background-color: #e3cfe2;
+  width: 100%;
+  height: 55px;
+  display: inline-block;
+  position: relative;
+  box-shadow: 1px 1px 4px #bbb;
+
+  /* Center logo */
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -23px;
+    margin-left: -250px;
+  }
+}
+
+/* Portfolio items */
+#content {
+  ul {
+    margin: 0;
+    padding: 0;
+
+    /* Images container */
+    li {
+      list-style-type: none;
+      box-shadow: 1px 1px 4px #bbb;
+      float: left;
+      width: 470px;
+      height: 400px;
+      padding: 10px;
+
+      /* Make images fluid */
+      img {
+        display: inline-block;
+        width: 100%;
+      }
+    }
+
+    /* Add some space between items */
+    li:nth-child(odd) {
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}

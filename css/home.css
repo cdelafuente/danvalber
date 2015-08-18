@@ -1,111 +1,104 @@
+/* Unordered lists */
+ul {
+  padding: 0;
+  margin: 0; }
+  ul li {
+    list-style-type: none; }
+
+/*
+ * Colors
+ */
+body {
+  background: url("../img/background.png");
+  background-size: 17.5px;
+  width: 1000px;
+  margin: 0 auto; }
+
 #content {
   width: 1000px;
   float: left;
   position: absolute;
   top: 50%;
-  margin-top: -250px;
-}
+  margin-top: -250px; }
 
-nav,
-nav ul {
-  float: left;
-}
+/* Navigation items */
+nav {
+  float: left; }
+  nav ul {
+    float: left; }
+    nav ul li {
+      float: left;
+      width: 490px;
+      height: 200px;
+      position: relative;
+      box-shadow: 1px 1px 4px #bbb; }
+      nav ul li a {
+        position: absolute;
+        top: 50%;
+        left: 50%; }
 
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-
-nav ul li {
-  list-style-type: none;
-  float: left;
-  width: 490px;
-  height: 200px;
-  position: relative;
-  box-shadow: 1px 1px 4px #bbb;
-}
-
-nav ul li a {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
-
+/* Editorial link */
 #editorial {
   background-color: #dc6ca9;
   margin-right: 20px;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
+  #editorial a {
+    margin-top: -38px;
+    margin-left: -125px; }
 
-#editorial a {
-  margin-top: -38px;
-  margin-left: -125px;
-}
-
+/* Web link */
 #web {
-  background-color: #71c6a6;
-}
+  background-color: #71c6a6; }
+  #web a {
+    margin-top: -42.5px;
+    margin-left: -70px; }
 
-#web a {
-  margin-top: -42.5px;
-  margin-left: -70px;
-}
-
+/* Identity link */
 #identity {
   background-color: #5aa6db;
-  margin-right: 20px;
-}
+  margin-right: 20px; }
+  #identity a {
+    margin-top: -57.5px;
+    margin-left: -105px; }
 
-#identity a {
-  margin-top: -57.5px;
-  margin-left: -105px;
-}
-
+/* Miscellaneous link */
 #miscellaneous {
-  background-color: #ffc63d;
-}
+  background-color: #ffc63d; }
+  #miscellaneous a {
+    margin-top: -42px;
+    margin-left: -190px; }
 
-#miscellaneous a {
-  margin-top: -42px;
-  margin-left: -190px;
-}
-
+/*
+ * Footer Section
+ */
 footer {
   position: relative;
   margin-top: 20px;
   float: left;
   width: 100%;
-}
+  /* Name banner */
+  /* Contact links */ }
+  footer p {
+    background-color: #e3cfe2;
+    width: 810px;
+    height: 55px;
+    display: inline-block;
+    position: relative;
+    box-shadow: 1px 1px 4px #bbb;
+    margin-top: 0;
+    margin-bottom: 0; }
+    footer p img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -23px;
+      margin-left: -250px; }
+  footer ul {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -24px; }
+    footer ul li {
+      display: inline-block; }
 
-footer p {
-  background-color: #e3cfe2;
-  width: 810px;
-  height: 55px;
-  display: inline-block;
-  position: relative;
-  box-shadow: 1px 1px 4px #bbb;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-footer p img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -23px;
-  margin-left: -250px;
-}
-
-footer ul {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  margin-top: -24px;
-}
-
-footer ul li {
-  list-style-type: none;
-  display: inline-block;
-}
+/*# sourceMappingURL=home.css.map */

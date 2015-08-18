@@ -1,0 +1,12 @@
+@import "../partials/_global.scss";
+@import "../partials/_colors.scss";
+@import "../partials/_section.scss";
+
+#content {
+  /* Image container */
+  li {
+    background-color: $blue;
+    width: 450px;
+    padding: 20px;
+  }
+}

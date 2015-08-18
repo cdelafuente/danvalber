@@ -1,0 +1,119 @@
+@import "../partials/_resets.scss";
+@import "../partials/_colors.scss";
+@import "../partials/_global.scss";
+
+#content {
+  width: 1000px;
+  float: left;
+  position: absolute;
+  top: 50%;
+  margin-top: -250px;
+}
+
+/* Navigation items */
+nav {
+  float: left;
+
+  ul {
+    float: left;
+
+    li {
+      float: left;
+      width: 490px;
+      height: 200px;
+      position: relative;
+      box-shadow: 1px 1px 4px #bbb;
+
+      a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+      }
+    }
+  }
+}
+
+/* Editorial link */
+#editorial {
+  background-color: $pink;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  a {
+    margin-top: -38px;
+    margin-left: -125px;
+  }
+}
+
+/* Web link */
+#web {
+  background-color: $green;
+
+  a {
+    margin-top: -42.5px;
+    margin-left: -70px;
+  }
+}
+
+/* Identity link */
+#identity {
+  background-color: $blue;
+  margin-right: 20px;
+
+  a {
+    margin-top: -57.5px;
+    margin-left: -105px;
+  }
+}
+
+/* Miscellaneous link */
+#miscellaneous {
+  background-color: $yellow;
+
+  a {
+    margin-top: -42px;
+    margin-left: -190px;
+  }
+}
+
+/*
+ * Footer Section
+ */
+footer {
+  position: relative;
+  margin-top: 20px;
+  float: left;
+  width: 100%;
+
+  /* Name banner */
+  p {
+    background-color: #e3cfe2;
+    width: 810px;
+    height: 55px;
+    display: inline-block;
+    position: relative;
+    box-shadow: 1px 1px 4px #bbb;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -23px;
+      margin-left: -250px;
+    }
+  }
+
+  /* Contact links */
+  ul {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -24px;
+
+    li {
+      display: inline-block;
+    }
+  }
+}
