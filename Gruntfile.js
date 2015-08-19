@@ -10,9 +10,9 @@ module.exports = function (grunt) {
         },
         files: [{
           expand: true,
-          cwd: 'styles/sass/pages',
+          cwd: 'web/styles/sass/pages',
           src: ['*.scss'],
-          dest: 'styles/css',
+          dest: 'web/styles/css',
           ext: '.css'
         }]
       },
@@ -23,9 +23,9 @@ module.exports = function (grunt) {
         },
         files: [{
           expand: true,
-          cwd: 'styles/sass/pages',
+          cwd: 'web/styles/sass/pages',
           src: ['*.scss'],
-          dest: 'styles/css',
+          dest: 'web/styles/css',
           ext: '.css'
         }]
       }

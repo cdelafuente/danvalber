@@ -1,0 +1,56 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Home{% endblock %}
+
+{% block stylesheets %}
+  <link rel="stylesheet" type="text/css" href="{{ asset('styles/css/home.css') }}" /> 
+{% endblock %}
+
+{% block content %}
+  <nav>
+    <ul>
+      <li id="editorial">
+        <a href="{{ path('editorial') }}">
+          <img width="250" alt="Editorial" src="{{ asset('img/home/editorial.png') }}" />
+        </a>
+      </li>
+      <li id="web">
+        <a href="{{ path('web') }}">
+          <img width="140" alt="Web" src="{{ asset('img/home/web.png') }}" />
+        </a>
+      </li>
+      <li id="identity">
+        <a href="{{ path('identity') }}">
+          <img width="210" alt="Identity" src="{{ asset('img/home/identity.png') }}" />
+        </a>
+      </li>
+      <li id="miscellaneous">
+        <a href="{{ path('miscellaneous') }}">
+          <img width="380" alt="Miscellaneous" src="{{ asset('img/home/miscellaneous.png') }}" />
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <footer>
+    <p>
+      <img width="500" alt="Danvalber Graphics Designer" src="{{ asset('img/home/danvalber.png') }}" />
+    </p>
+    <ul>
+      <li>
+        <a href="mailto:danvalber@gmail.com">
+          <img width="55" alt="Email" src="{{ asset('img/home/email.png') }}" />
+        </a>
+      </li>
+      <li>
+        <a href="skype:danvalber?call">
+          <img width="55" alt="Skype" src="{{ asset('img/home/skype.png') }}" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/danvalber" target="_blank">
+          <img width="55" alt="Linkedin" src="{{ asset('img/home/linkedin.png') }}" />
+        </a>
+      </li>
+    </ul>
+  </footer>
+{% endblock %}

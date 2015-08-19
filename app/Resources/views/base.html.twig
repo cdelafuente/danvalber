@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>danvalber | {% block title %}{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
+  </head>
+  <body>
+    {% block header %}{% endblock %}
+    <section id="content">
+      {% block content %}{% endblock %}
+    </section>
+  </body>
+</html>
