@@ -8,11 +8,11 @@ Installation
 
 1. Get composer
 
-    curl -sS https://getcomposer.org/installer | php
+        curl -sS https://getcomposer.org/installer | php
 
 Get dependencies
 
-    php composer.phar install
+        php composer.phar install
 
 Configure a Web Server
 ======================
