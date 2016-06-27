@@ -7,24 +7,24 @@
 {% endblock %}
 
 {% block content %}
-  <nav>
+  <nav class="main-nav">
     <ul>
-      <li id="editorial">
+      <li class="main-nav__editorial">
         <a href="{{ path('editorial') }}">
           <img width="250" alt="Editorial" src="{{ asset('img/home/editorial.png') }}" />
         </a>
       </li>
-      <li id="web">
+      <li class="main-nav__web">
         <a href="{{ path('web') }}">
           <img width="140" alt="Web" src="{{ asset('img/home/web.png') }}" />
         </a>
       </li>
-      <li id="identity">
+      <li class="main-nav__identity">
         <a href="{{ path('identity') }}">
           <img width="210" alt="Identity" src="{{ asset('img/home/identity.png') }}" />
         </a>
       </li>
-      <li id="miscellaneous">
+      <li class="main-nav__miscellaneous">
         <a href="{{ path('miscellaneous') }}">
           <img width="380" alt="Miscellaneous" src="{{ asset('img/home/miscellaneous.png') }}" />
         </a>

@@ -11,7 +11,7 @@
 }
 
 /* Navigation items */
-nav {
+.main-nav {
   float: left;
 
   ul {
@@ -28,51 +28,32 @@ nav {
         position: absolute;
         top: 50%;
         left: 50%;
+        transform: translateX(-50%) translateY(-50%);
       }
     }
   }
-}
 
-/* Editorial link */
-#editorial {
-  background-color: $pink;
-  margin-right: 20px;
-  margin-bottom: 20px;
-
-  a {
-    margin-top: -38px;
-    margin-left: -125px;
+  /* Editorial link */
+  &__editorial {
+    background-color: $pink;
+    margin-right: 20px;
+    margin-bottom: 20px;
   }
-}
 
-/* Web link */
-#web {
-  background-color: $green;
-
-  a {
-    margin-top: -42.5px;
-    margin-left: -70px;
+  /* Web link */
+  &__web {
+    background-color: $green;
   }
-}
 
-/* Identity link */
-#identity {
-  background-color: $blue;
-  margin-right: 20px;
-
-  a {
-    margin-top: -57.5px;
-    margin-left: -105px;
+  /* Identity link */
+  &__identity {
+    background-color: $blue;
+    margin-right: 20px;
   }
-}
-
-/* Miscellaneous link */
-#miscellaneous {
-  background-color: $yellow;
-
-  a {
-    margin-top: -42px;
-    margin-left: -190px;
+  
+  /* Miscellaneous link */
+  &__miscellaneous {
+    background-color: $yellow;
   }
 }
 
