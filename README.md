@@ -10,7 +10,7 @@ Installation
 
         curl -sS https://getcomposer.org/installer | php
 
-Get dependencies
+2. Get dependencies
 
         php composer.phar install
 
