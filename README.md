@@ -7,10 +7,10 @@ Website project for danvalber.com
 
 ### Installation
 
-1- Get composer
+1. Get composer
 > `curl -sS https://getcomposer.org/installer | php`
 
-2- Get dependencies
+2. Get dependencies
 > `php composer.phar install`
 
 ---
