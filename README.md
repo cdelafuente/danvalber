@@ -6,11 +6,11 @@ Website project for danvalber.com
 Installation
 ============
 
-1. Get composer::
+Get composer::
 
   curl -sS https://getcomposer.org/installer | php
 
-2. Get dependencies::
+Get dependencies::
 
   php composer.phar install
 
