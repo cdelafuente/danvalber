@@ -1,11 +1,19 @@
+# Symfony ignores
+/web/bundles/
+/app/bootstrap.php.cache
+/app/cache/*
+/app/config/parameters.yml
+/app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+/app/phpunit.xml
+/build/
+/vendor/
+/bin/
+/composer.phar
+
+# Project ignores
 .sass-cache/
 css/.sass-cache/
 css/*.map
 node_modules/
-vendor/
-composer.lock
-phpunit.xml
-.php_cs.cache
-composer.phar
-package.tar
-/packages.json
