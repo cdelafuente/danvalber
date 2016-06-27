@@ -1,10 +1,8 @@
-danvalber
-=========
+# danvalber
 
 Website project for danvalber.com
 
-Installation
-============
+## Installation
 
 1. Get composer
 
@@ -14,11 +12,10 @@ Installation
 
         php composer.phar install
 
-Development
-===========
+## Development
 
-Running a Web Server
-~~~~~~~~~~~~~~~~~~~~
+
+### Running a Web Server
 
 If you have PHP 5.4 installed you can alternatively use the PHP internal
 web server
